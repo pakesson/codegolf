@@ -1,6 +1,6 @@
 # Compiling
 ```
-$ gcc -o hexdump hexdump_golf.c
+$ gcc --include stdio.h -o hexdump hexdump_golf.c
 ```
 
 # Usage
