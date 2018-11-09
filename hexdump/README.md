@@ -1,9 +1,16 @@
-# Compiling
+# Hexdump
+
+```
+$ wc -c hexdump_golf.c
+230 hexdump_golf.c
+```
+
+## Compiling
 ```
 $ gcc --include stdio.h -o hexdump hexdump_golf.c
 ```
 
-# Usage
+## Usage
 ```
 $ ./hexdump /bin/sh
 00000000 7F 45 4C 46 02 01 01 00 00 00 00 00 00 00 00 00 .ELF............
