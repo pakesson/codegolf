@@ -1,1 +1,1 @@
-int main(int a,char*v[]){int c,n,t=0;FILE*p=fopen(v[1],"r");while(c!=EOF){char l[81];sprintf(l,"%08X%*s",t,72,"");for(n=0;n<16&&(c=fgetc(p))!=EOF;++n,++t){sprintf(l+9+n*3,"%02X",c);l[11+n*3]=' ';l[58+n]=(c>31&&c<124)?c:'.';}puts(l);}}
+int main(int a,char*v[]){int c,n,t=0;FILE*p=fopen(v[1],"r");while(c!=EOF){char l[81];sprintf(l,"%08X%*s",t,72,"");for(n=0;n<16&&(c=fgetc(p))!=EOF;++n,++t){sprintf(l+9+n*3,"%02X",c);l[11+n*3]=32;l[58+n]=(c>31&&c<124)?c:46;}puts(l);}}
