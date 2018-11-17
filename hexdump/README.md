@@ -2,7 +2,7 @@
 
 ```
 $ wc -c hexdump_golf.c
-231 hexdump_golf.c
+229 hexdump_golf.c
 ```
 
 ## Compiling
